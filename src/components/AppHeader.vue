@@ -50,19 +50,23 @@ export default {
 </script>
 
 <template>
-  <header>
-    <img src="/public/img/dc-logo.png" alt="">
+  <div class="container">
+    <header>
+      <img src="/public/img/dc-logo.png" alt="logo">
 
-    <nav>
-      <ul>
-        <li v-for="item in navItems">
-          <a href="">
-            {{ item.title }}
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+      <nav>
+        <ul>
+          <li v-for="item in navItems">
+            <a href="">
+              {{ item.title }}
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+  </div>
+
 </template>
 
 <style lang="scss" scoped>
