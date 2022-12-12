@@ -52,7 +52,7 @@ export default {
 <template>
   <div class="container">
     <header>
-      <img src="/public/img/dc-logo.png" alt="logo">
+      <img src="/img/dc-logo.png" alt="logo">
 
       <nav>
         <ul>

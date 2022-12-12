@@ -5,27 +5,27 @@ export default {
             categoriesCard: [
                 {
                     title: 'Digital Comics',
-                    img: '/public/img/buy-comics-digital-comics.png'
+                    img: '/img/buy-comics-digital-comics.png'
                 },
 
                 {
                     title: 'DC Merchandise',
-                    img: '/public/img/buy-comics-merchandise.png'
+                    img: '/img/buy-comics-merchandise.png'
                 },
 
                 {
                     title: 'Subscription',
-                    img: '/public/img/buy-comics-subscriptions.png'
+                    img: '/img/buy-comics-subscriptions.png'
                 },
 
                 {
                     title: 'Comic Shop Locator',
-                    img: '/public/img/buy-comics-shop-locator.png'
+                    img: '/img/buy-comics-shop-locator.png'
                 },
 
                 {
                     title: 'DC Power Visa',
-                    img: '/public/img/buy-dc-power-visa.svg'
+                    img: '/img/buy-dc-power-visa.svg'
                 },
             ]
         }
