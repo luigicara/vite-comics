@@ -86,11 +86,20 @@ header {
       @include space-between;
 
       li {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+        font-weight: bold;
         margin: 0 1rem;
         height: 100%;
 
         @include vertical-align-middle($headerHeight);
+
+        &:hover {
+          border-bottom: 4px solid $primaryColor;
+
+          a {
+            color: $primaryColor;
+          }
+        }
 
         a {
           text-decoration: none;
