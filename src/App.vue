@@ -1,11 +1,15 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBottom from './components/AppFooterBottom.vue';
 
 export default {
   components: {
     AppHeader,
-    AppMain
+    AppMain,
+    AppFooterTop,
+    AppFooterBottom
   }
 }
 </script>
@@ -14,6 +18,8 @@ export default {
 
   <AppHeader />
   <AppMain />
+  <AppFooterTop />
+  <AppFooterBottom />
 
 </template>
 
@@ -21,7 +27,7 @@ export default {
 @use './styles/general.scss' as *;
 
 .container {
-  max-width: 1140px;
+  max-width: 1270px;
   margin: 0 auto;
 }
 </style>

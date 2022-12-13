@@ -83,8 +83,8 @@ p {
             color: white;
 
             img {
-                height: 3rem;
-                max-width: 3rem;
+                height: 3.5rem;
+                max-width: 3.5rem;
                 float: left;
                 margin-right: 1rem;
             }

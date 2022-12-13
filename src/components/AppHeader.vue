@@ -2,48 +2,7 @@
 export default {
   data() {
     return {
-      navItems: [
-        {
-          title: 'CHARACTHERS'
-        },
-
-        {
-          title: 'COMICS'
-        },
-
-        {
-          title: 'MOVIES'
-        },
-
-        {
-          title: 'TV'
-        },
-
-        {
-          title: 'GAMES'
-        },
-
-        {
-          title: 'COLLECTIBLES'
-        },
-
-        {
-          title: 'VIDEOS'
-        },
-
-        {
-          title: 'FANS'
-        },
-
-        {
-          title: 'NEWS'
-        },
-
-        {
-          title: 'SHOP'
-        },
-
-      ]
+      navItems: ['CHARACTHERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP']
     }
   },
 }
@@ -58,7 +17,7 @@ export default {
         <ul>
           <li v-for="item in navItems">
             <a href="">
-              {{ item.title }}
+              {{ item }}
             </a>
           </li>
         </ul>
